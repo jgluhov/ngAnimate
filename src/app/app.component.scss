@@ -1,0 +1,28 @@
+:host {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: calc(100vh - 2rem);
+  width: calc(100vw - 2rem);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 1rem;
+  grid-column-gap: 1rem;
+}
+
+.btn {
+  border-radius: 50%;
+  padding: 0;
+  outline: 0;
+  text-align: center;
+  font-size: 3vh;
+
+  &:first-letter {
+    text-transform: capitalize;
+  }
+}
