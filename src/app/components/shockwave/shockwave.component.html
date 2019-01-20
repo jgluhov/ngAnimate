@@ -1,0 +1,8 @@
+<button class="entry"
+  [@shockwaveJump]="animationState"
+  (@shockwaveJump.done)="onDone($event)"
+  (click)="handleClick($event)">
+  shockwave
+</button>
+<div class="entry-1"></div>
+<div class="entry-2"></div>

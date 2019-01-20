@@ -1,3 +1,4 @@
+import { transition, state } from '@angular/animations';
 import {
   animation,
   keyframes,

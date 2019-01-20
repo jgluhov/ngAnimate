@@ -1,0 +1,16 @@
+.entry, .entry-1, .entry-2 {
+  height: 100%;
+  width: 100%;
+}
+
+.entry {
+  border-radius: 50%;
+  padding: 0;
+  outline: 0;
+  text-align: center;
+  font-size: 3vh;
+
+  &:first-letter {
+    text-transform: capitalize;
+  }
+}
