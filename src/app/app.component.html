@@ -1,9 +1,9 @@
 
 <div class="container">
-  <button class="btn" [@shockwaveJump]="btn.dataset.animationState" #btn (click)="handleClick(btn)">shockwave</button>
-  <button class="btn">jump</button>
-  <button class="btn">pulse</button>
-  <button class="btn">blink</button>
-  <button class="btn">wiggle</button>
-  <button class="btn">hatching alien</button>
+  <button class="btn"
+    [@shockwaveJump]="animationState"
+    (@shockwaveJump.done)="onDone($event)"
+    (click)="handleClick()">
+    shockwave
+  </button>
 </div>
