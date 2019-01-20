@@ -1,6 +1,6 @@
 
 <div class="container">
-  <button class="btn">shockwave</button>
+  <button class="btn" [@shockwaveJump]="btn.dataset.animationState" #btn (click)="handleClick(btn)">shockwave</button>
   <button class="btn">jump</button>
   <button class="btn">pulse</button>
   <button class="btn">blink</button>
